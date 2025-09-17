@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# React Machine Coding — Interview Exercises
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo contains 18 interview-focused React + JS exercises (TypeScript, CRA). Each exercise lives under `src/components/<QuestionName>/index.tsx`.
 
-## Available Scripts
+## Purpose
 
-In the project directory, you can run:
+- Practice machine-coding style React problems
+- Clean, minimal implementations with hooks, performance, accessibility, and edge-case handling
+- Copy-paste friendly: each component is standalone and can be rendered from `App.tsx`
 
-### `npm start`
+## How to use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone / create repo using CRA (TypeScript).
+2. Copy components from `exercises/` (or paste into `src/components`).
+3. Import and render any component in `src/App.tsx`.
+4. Run: `npm start` or `yarn start`.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Exercises (18)
 
-### `npm test`
+1. Counter
+2. TodoLocalStorage
+3. SearchDebounce
+4. ModalPortal
+5. InfiniteScroll
+6. FormValidation
+7. ThemeSwitcher
+8. AutoComplete
+9. throttle (util)
+10. debounce (util + hook)
+11. once (util)
+12. flattenArray (util)
+13. bindPolyfill (util)
+14. asyncWithGenerators (util demo)
+15. useFetch (hook)
+16. ReduxCounter (example using redux toolkit)
+17. ReduxTodo (redux toolkit)
+18. AuthContext (Context + useReducer)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Notes
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Each component focuses on clarity and interview-readiness.
+- Add tests and more edge cases as you progress.
