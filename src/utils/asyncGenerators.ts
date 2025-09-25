@@ -1,4 +1,3 @@
-// src/utils/asyncGenerators.ts
 export function asyncRunner<T = any>(
   genFn: () => Generator<any, T, any>
 ): Promise<T> {

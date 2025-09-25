@@ -1,4 +1,3 @@
-import React from "react";
 import { asyncRunner } from "../../utils/asyncGenerators";
 
 export default function AsyncGeneratorsDemo() {
